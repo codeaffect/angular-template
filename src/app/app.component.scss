@@ -1,0 +1,34 @@
+p {
+  font-family: Lato;
+}
+
+.main-header{
+  position: absolute;  
+  background-color: var(--clr-header-6-bg-color,#00364d);
+}
+
+.main-header div.branding{
+  color: var(--clr-header-title-color,#fafafa);
+  width: 200px;
+}
+
+.main-header div.main-menu,
+.main-header div.main-menu:hover{    
+  /* right: 10px; */
+  left:220px;
+  opacity: 1;
+  position:absolute;
+  color: var(--clr-header-font-color,#fafafa);
+  cursor: pointer;
+}
+
+.main-header div.main-menu{
+  opacity: 0.65;
+}
+.main-container {
+  position: absolute;
+  /* top: 0; */
+  /* bottom: 0; */
+  left: 0;
+  right: 0;
+}
